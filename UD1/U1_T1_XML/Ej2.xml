@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE relacion SYSTEM "Ej2.dtd">
+
+<Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ej3.xsd">
+    <Libro catalogo="Verano">
+        <titulo>Programcion para dummies</titulo>
+        <seccion>7</seccion>
+        <subseccion>b</subseccion>
+        <contenido>
+            <capitulo materia="XML">
+                <Tema>Xml</Tema>
+                <Separacion></Separacion>
+            </capitulo>
+        </contenido>
+        <copyright>No</copyright>
+        <titulo>Programcion para expertos</titulo>
+        <seccion>48</seccion>
+        <contenido>
+            <capitulo materia="XHTML">
+                <Tema>Xml</Tema>
+                <Tema>Programas</Tema>
+            </capitulo>
+            <capitulo materia="XHTML">
+                <Tema>Informatica</Tema>
+            </capitulo>
+        </contenido>
+        <copyright>No</copyright>
+    </Libro>
+</Libreria>
