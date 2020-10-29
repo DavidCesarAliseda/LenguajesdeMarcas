@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tablas</title>
+</head>
+<body>
+    <table>
+        <style>
+            table {
+            border-collapse: collapse;
+        }
+        th,
+        td {
+            border: 1px solid black;
+            padding: 20px;
+        }
+        </style>
+        <rowgroup></rowgroup>
+        <caption>Ipod</caption>
+        <thead>
+            <tr>
+                <th> </th>
+                <th colspan="3"><img src="img/120_ipod.png" width=""></th>
+                <th colspan="2"><img src="img/100_ipod.png" width="80px"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Capacidad</th>
+                <th>2GB</th>
+                <th>4GB</th>
+                <th>8GB</th>
+                <th>32GB</th>
+                <th>2GB</th>
+            </tr>
+            <tr>
+                <th>Colores</th>
+                <th>Blanco</th>
+                <td>
+                    <ul type="disc">
+                        <li>Negro</li>
+                    <li>Rosa</li>
+                    <li>Dorado</li>
+                    </ul>
+                </td>
+                <th>Negro</th>
+                <td colspan="2">
+                    <ul type="disc">
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Pantalla</th>
+                <th colspan="3">3 pulgadas</th>
+                <th colspan="2">7 pulgadas</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Tiempo de Carga</th>
+                <th colspan="3" rowspan="2">1 hora</th>
+                <th colspan="2">5 horas</th>   
+            </tr>
+            <tr>
+                <th colspan="2">30 minutos para 75%</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
