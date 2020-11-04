@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <table>
+        <caption></caption>
+        <thead>
+            <th colspan="2">IES Alixar Login</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="Usuario">Usuario:</label></td>
+                <td><input type="user" name="Usuario" /></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password:</label></td>
+                <td><input type="password" name="Password" /></td>
+            </tr>
+            <tr>
+                <td><label for="Fecha_Nacimiento">Fecha de Nacimiento:</label></td>
+                <td><input type="date" name="Fecha_Nacimiento" /></td>
+            </tr>
+            <tr>
+                <td><label for="Curso_Matriculacion">Curso de Matriculación</label></td>
+                <td><select name="Curso_Matriculación">
+                    <option>Primero DAW1</option>
+                    <option>Segundo DAW1</option></td>
+            </tr>
+            <tr>
+                <td><label for="rol">Rol:</label></td>
+                <td><input type="radio" name="rol" value="estudiante" />Estudiante<br/>
+                    <input type="radio" name="rol" value="profesor" />Profesor<br/>
+                    <input type="radio" name="rol" value="apoyo" />Apoyo<br/>
+                    <input type="radio" name="rol" value="staff" />Staff<br/>
+                </td>
+           </tr>
+           <tr>
+               <td><label for="forma">Forma de comunicaión:</label></td>
+               <td><input type="checkbox" name="forma" value="mail"/>Mail<br/>
+                   <input type="checkbox" name="forma" value="telefono"/>Telefono<br/>
+                   <input type="checkbox" name="forma" value="correo_ordinario"/>Correo Ordinario<br/>
+            </td>
+           </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="2" >
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Borrar"/></td>
+
+
+        </tfoot>
+
+
+    </table>
+</body>
+</html>
