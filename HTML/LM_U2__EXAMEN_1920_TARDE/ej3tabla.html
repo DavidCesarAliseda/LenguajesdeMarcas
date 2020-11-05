@@ -6,9 +6,10 @@
     <title>Ejercicio 3</title>
 </head>
 <body>
-    <table>
+    <form method="post" action="destination.html">
+    <table border="1">
         <caption></caption>
-        <thead>
+        <thead style="background-color: blue;">
             <th colspan="2">IES Alixar Login</th>
         </thead>
         <tbody>
@@ -39,7 +40,7 @@
                 </td>
            </tr>
            <tr>
-               <td><label for="forma">Forma de comunicaión:</label></td>
+               <td><label for="forma">Forma de comunicación:</label></td>
                <td><input type="checkbox" name="forma" value="mail"/>Mail<br/>
                    <input type="checkbox" name="forma" value="telefono"/>Telefono<br/>
                    <input type="checkbox" name="forma" value="correo_ordinario"/>Correo Ordinario<br/>
@@ -47,14 +48,13 @@
            </tr>
         </tbody>
         <tfoot>
-            <td colspan="2" >
+            <th colspan="2" >
                 <input type="submit" value="Enviar"/>
-                <input type="reset" value="Borrar"/></td>
-
-
+                <input type="reset" value="Borrar"/></th>
         </tfoot>
 
 
     </table>
+</form>
 </body>
 </html>
