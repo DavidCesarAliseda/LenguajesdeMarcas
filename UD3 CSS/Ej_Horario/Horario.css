@@ -1,0 +1,38 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(182, 189, 147);
+}
+
+.hora{
+    background-color:  rgb(182, 189, 147);
+    text-align: right;
+    padding-right: 5px;
+}
+.prog{
+
+}
+.si{
+    background-color: rgb(245, 145, 145);
+    
+
+}
+.fol{
+    background-color: rgb(219, 231, 148);
+}
+.bd{
+    background-color: rgb(179, 133, 133);
+}
+.endes{
+    background-color: rgb(211, 165, 223);
+}
+.lm{
+    background-color: rgb(170, 214, 240);
+}
