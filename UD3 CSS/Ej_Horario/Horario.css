@@ -1,9 +1,11 @@
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
 table{
     border-collapse: collapse;
+
+}
+td, th {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
 th{
     text-align: center;
@@ -36,3 +38,10 @@ th{
 .lm{
     background-color: rgb(170, 214, 240);
 }
+#horario{
+        font-weight: bold;
+        font-size: large;
+        
+        
+}
+
