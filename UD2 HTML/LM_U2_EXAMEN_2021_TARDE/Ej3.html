@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+        table{
+            border-color: red;
+            border-style: dashed;
+
+        }
+        thead,
+        tfoot{
+            background-color: rgb(236, 217, 203);
+            
+        }
+        td,
+        th{
+            
+            border-color: red;
+            border-style: dashed;
+            text-align: center;
+        }
+        th{
+            padding-left: 5px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead >
+            <th>Número del catalogo</th>
+            <th>Nombre</th>
+            <th>Imagen</th>
+            <th>Web donde lo encontramos</th>
+            <th>Tienda</th>
+            <th>Precio</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7821562</td>
+                <td>Atari Mini</td>
+                <td><img src="imgej3/monitor.png" alt="Monitor" width="120"></td>
+                <td><a href="http://www.ebay.es" target="_blank">http://www.ebay.es</td>
+                <td>E-Bay</td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>243243</td>
+                <td>Super Nintendo Mini</td>
+                <td><img src="imgej3/nintendo.png" alt="Super Nintendo Mini" width="120"></td>
+                <td colspan="2" rowspan="3"><a href="http://www.amazon.es" target="_blank">http://www.amazon.es</td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>593922</td>
+                <td>Mega Drive Mini</td>
+                <td><img src="imgej3/sega.png" alt="Mega Drive Mini" width="120"></td>
+                <td>100€</td>
+            </tr>
+            <td>293944</td>
+                <td>Playstation Mini</td>
+                <td><img src="imgej3/play.png" alt="Playstation Mini" width="120"></td>
+                <td>100€</td>
+        </tbody>
+        <tfoot>
+            <th>Número del catalogo</th>
+            <th>Nombre</th>
+            <th>Imagen</th>
+            <th>Web donde lo encontramos</th>
+            <th>Tienda</th>
+            <th>Precio</th>
+        </tfoot>
+
+    </table>
+    
+    
+</body>
+</html>
