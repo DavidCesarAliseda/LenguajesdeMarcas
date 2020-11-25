@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    
+}
+
+th,
+td {
+    border: 1px solid black;
+    
+}
+.categoria{
+    background-color: red;
+    color: white;
+    font-size: medium;
+}
+#caption{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#capacidad{
+    font-size: x-large;
+}
+.capacidad{
+    text-align: center;
+    background-color: gray;
+}
+ul>li{
+    color: red;
+}
+#horas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: yellow;
+}
+[colspan="3"]{
+    background-color: blue;
+}
+[colspan="2"]{
+    background-color: blue;
+}
