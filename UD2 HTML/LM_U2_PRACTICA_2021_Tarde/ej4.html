@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 4</title>
+    <style>
+        table{
+            border: 2px solid rgb(226, 214, 106);
+            border-collapse: collapse;
+        }
+        th{
+            
+        }
+        td{
+            padding-right: 100px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <form>
-        <table>
-            <style>
-                th{
-                    
-                }
-                td{
-                    padding-right: 100px;
-                    padding-bottom: 15px;
-                    
-                }
-            </style>
+    <form method="post" action="destination.html">
+        <table >
             <thead style="background-color: rgb(226, 214, 106);">
               <th colspan="2" style="text-align: left;">Leave Form
               <select name="tipo" required style="background-color: rgb(238, 233, 184) ;">
@@ -26,7 +31,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><label for="mail">Employee Email</label></th>
+                    <td><label for="mail">Employee Email</label></td>
                     <td>
                         <select name="mail" placeholder="232" disabled style="background-color: rgb(238, 233, 184) ;">
                             <option>appuser@zohocreator.com</option>
@@ -47,7 +52,7 @@
                     <td><input type="text" name="designacion" placeholder="Team Leader" disabled style="background-color: rgb(238, 233, 184) ;"/></td>
                 </tr>
                 <tr>
-                    <td><label for="tipo">Leave Type</label></td>
+                    <td><label for="tipo">Leave Type*</label></td>
                     <td>
                         <select name="tipo" required>
                             <option value="" disabled selected="true" >-Select-</option>
@@ -60,12 +65,12 @@
                     
                 </tr>
                 <tr>
-                    <td><label for="from">From</label></td>
-                    <td><input type="number" name="from" /></td>
+                    <td><label for="from">From*</label></td>
+                    <td style="font-size: small; font-weight: normal;"><input type="text" name="from" required/><img src="img4/calendario.jpg" alt="Miniatura calentario" width="20">[dd-MM-yyyy]</td>
                 </tr>
                 <tr>
-                    <td><label for="to">To</label></td>
-                    <td><input type="number" name="to" /></td>
+                    <td><label for="to">To*</label></td>
+                    <td style="font-size: small; font-weight: normal;"><input type="text" name="to" required/><img src="img4/calendario.jpg" alt="Miniatura calentario" width="20">[dd-MM-yyyy]</td>
                 </tr>
                 <tr>
                     <td><label for="dias">No of Days</label></td>
@@ -73,7 +78,7 @@
                 </tr>
                 <tr>
                     <td valign="top"><label for="razon" >Reason</label></td>
-                    <td><input type="text" name="razon" style="width : 200px; height: 100px; "></td>
+                    <td><textarea name="razon" rows="5" cols="30"></textarea></td>
                 </tr>
             </tbody>
             <tfoot style="background-color:  rgb(170, 169, 168);">
