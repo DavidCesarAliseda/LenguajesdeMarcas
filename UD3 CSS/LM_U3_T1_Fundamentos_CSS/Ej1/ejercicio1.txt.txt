@@ -1,0 +1,35 @@
+body {background-color: tan}
+El body, que es el cuerpo de la pagina, tendrá un fondo (background-color) del color seleccionado.
+
+/* Headers */
+h1 {color:maroon; font-size:20pt}
+h1 es un selector que otorga al contenido un tamaño establecido de forma predefinida siendo superior al resto de los selectores de su tipo, como h2 o h3 por poner unos ejemplos.
+Con "color" nos referimos a la propiedad color de la letra y con "font-size" editamos la propiedad tamaño de la fuente, este tamaño puede venir dado en diferentes medidas, en este caso en puntos. Dando como resultado el color deseado y una fuente de tamaño 20 puntos. 
+
+/* HR (Hard Rule = line) */
+hr {color:navy}
+hr/ nos permite crear un espacio entre tetos o parrafos. Ademas con "color" podemos modificar el color de este espacio.
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px}
+p nos permite crear parrafos. 
+Con font-size modificaremos el tamaño de la fuente como he indicado anteriormente.
+Con margin-left podemos modificar el margen derecho del elemento. El margen es el espacio existente desde que acaba un elemento hasta que comienza otro. En este caso la medida viene dada en pixeles.
+
+p.verse {color:maroon; margin-left: 60px}
+Aqui estamos usando una clase llamada verse aplicada a los parrafos.
+Una clase sirve para cuando queremos aplicar un mismo estilos a varios elementos, sin necesidad de cambiar las propiedas de cada elemento en particular, modificando solo el estilo de la clase.
+Aqui estamos eligiendo el color del texto de los parrafos incluidos en la clase verse ademas de su margen derecho.
+
+/* Links */
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+a hace referencia a los elementos de tipo link, que hacen que desde nuestra web podamos acceder a otras establecidas.
+Tanto :link, :visited, :hover y :avtive son pseudoselectores, con ellos hacemos referencia al elemento cuando se encuentra en determinado estado.
+:link hace referencia elemento en el que se vincula la web elegida.
+:visited hace referencia elemento en el que se vincula la web elegida cuando ya hemos usado ese enlace. 
+:hover hace referencia elemento en el que se vincula la web elegida cuando situamos el cursos sobre el elemento.
+:active representa un elemento que el usuario está activando.

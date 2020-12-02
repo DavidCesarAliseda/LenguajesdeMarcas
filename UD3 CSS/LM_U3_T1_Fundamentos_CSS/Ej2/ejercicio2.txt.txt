@@ -1,0 +1,10 @@
+Esto es debido a que en los dos primeros parrafos estamos aplicando el estilo de la clase verse, mientras que al resto de parrafos no le aplicamos esta clase, al resto le aplicamos el estilo de los parrafos.
+
+
+El estilo de la clase verse es:
+p.verse {color:maroon; margin-left: 60px}
+
+El estilo de los parrafos es:
+p {font-size:12pt; margin-left: 15px}
+
+Para que todos tengan el mismo estilo lo que haremos es añadir al resto de parrafos la clase verse, ya que si modificamos el estilo de los parrafos modificaremos todos los parrafos del html.
