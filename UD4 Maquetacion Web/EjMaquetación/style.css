@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 /*Barra lateral*/
 
 .sidebar{
@@ -6,10 +8,10 @@
     border: 2px solid black;
     position: fixed;
     font-size: 0.9em;
-    height: 40%;
+    height: 18rem;
     width: 80px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     top: 30%;
 }
 
@@ -30,11 +32,15 @@
     position: relative;
     margin: 100px auto;
     width: 70%;
+    height: 500px;
+    
 }
 
 .container nav{
     background-color: #555555;
     position: sticky;
+    top: 0%;                      /*El punto en el que el nav va a quedar pegado*/
+    z-index: 100;                 /*Para que las imagenes no pasen por encima*/
 }
 
 .container nav li{
@@ -64,20 +70,28 @@ figure img{
 #fig1{
     position: absolute;
     left: 25%;
-    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     top: 25%;
     z-index: 4;
 }
 
 #fig2{
-    left: 25%;
+    position: absolute;
+    left: 33%;
+    transform: rotate(45deg);
+    top: 32%;
+    z-index: 3;
 }
 
 #fig3{
-    left: 25%;
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 40%;
+    left: 39%;
 }
 
 #fig4{
-    left: 25%;
+    position: absolute;
+    transform: rotate(15deg);
+    top: 40%;
 }
