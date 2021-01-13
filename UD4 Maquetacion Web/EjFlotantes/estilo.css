@@ -1,0 +1,80 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+.container{
+    width: 90%;
+    margin: 10px auto;
+    
+}
+/*top*/
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    
+}
+
+nav div{
+    display: inline-block;
+    margin: 10px 60px;
+}
+/*aside*/
+aside{
+    background-color: black;
+    color: white;
+    width: 15%;
+    margin-top: 20px;
+    float: left;
+    height: 430px;
+    margin-right: 5%;
+}
+
+aside div{
+    margin: 25px 15px;
+}
+
+/*Cuerpo*/
+
+img{
+    width: 120px;
+}
+
+section{
+    overflow: hidden;
+}
+
+section > div {
+    width: 30%;
+    float: left;
+    height: 430px;
+    margin-top: 20px;
+}
+
+.caja{
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 2%;
+}
+
+.caja p{
+    margin: 5px 8px;
+    margin-bottom: 15px;
+}
+
+article{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/*foot*/
+footer{
+    background-color: pink;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+}
