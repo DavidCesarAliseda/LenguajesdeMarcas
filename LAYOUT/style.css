@@ -1,0 +1,109 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/*Container*/
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+/*Header*/
+header{
+    background-color: rgb(43, 68, 43);
+    height: 200px;
+    overflow: hidden;
+}
+
+header img {
+    float: left;
+    /*height: 80%;*/
+    margin: 20px 5%;
+    /*margin-top: 15px;
+    margin-left: 5%;*/
+    width: 10%;
+}
+
+.parrafo{
+    width: 80%;
+    /*background-color: rgb(45, 223, 45);*/
+    height: 200px;
+    float: left;
+}
+
+#titulo {
+    font-size: 4rem;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    font-style: arial;
+    font-weight: bold;
+    margin-bottom: 0px;
+    float: left;
+   
+
+}
+
+#subtitulo { 
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    font-style: arial;
+    margin: 1px auto;
+    float: left;
+    width: 100%;
+}
+
+/*Cuerpo*/
+section{
+    background-color: rgb(216, 176, 124);
+    height: 760px;
+    overflow: hidden;
+}
+/*Columna izquierda*/
+.colizq{
+    background-color: rgb(216, 176, 124);
+    height: 700px;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+article img{
+    width: 90%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 40px;
+}
+
+/*Columna derecha*/
+.colder{
+    /*background-color: rgb(208, 124, 216);*/
+    height: 700px;
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.caja{
+    background-color: rgb(43, 68, 43);
+    margin-top: 40px;
+    height: 630px;
+    width: 75%;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.formulario{
+    background-color:rgb(179, 174, 174);
+    height: 500px;
+    margin-top: 130px;
+    
+}
+
+
+
+
+
+
