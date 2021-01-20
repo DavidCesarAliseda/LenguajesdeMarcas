@@ -1,0 +1,191 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  #container{
+    width: 95%;
+    margin: 10px auto;
+    /*height: 1000px;*/
+    min-width: 1302px;
+
+border-radius: 2%;
+    
+  }
+
+  /*Header*/
+  #header{
+    color: white;
+    background-color: black;
+    height: 75px;
+    overflow: hidden;
+    
+  }
+  #header h1{
+      margin-left: 10px;
+  }
+  #header div{
+    float: left;
+  }
+
+  #header > div{
+      width: 40%;
+  }
+
+  #login{
+      margin-left: 18%;
+      margin-top: 40px;
+      text-align: end;
+  }
+
+  /*nav*/
+  #nav{
+    background-color: rgb(80, 116, 80);
+    height: 30px;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(1, 53, 1);
+  }
+
+  #nav div{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+  }
+
+  #nav div:hover{
+      color: black;
+      background-color: blanchedalmond;
+  }
+
+  /*Cuerpo*/
+  #cuerpo{
+    float: left;
+    /*height: 1000px;*/
+    float: left;
+    overflow: hidden;
+    width: 100%;
+  }
+  /*Menu principal*/
+  #MenuPrincipal{
+    height: 250px;
+    width: 20%;
+    background-color: rgb(190, 189, 189);
+    border-radius: 1%;
+    float: left;
+    margin-top: 15px;
+      
+  }
+  #MenuPrincipal h4{
+    margin-top: 15px;
+    padding-left: 25px;
+    margin-bottom: 2px;
+      
+      
+  }
+  #MenuPrincipal img {
+    width: 200px;
+    margin-left: 25px;
+    padding-top: 0px;
+      
+      /*margin: auto auto;*/
+  }
+/*cental*/
+  #central{
+      
+      width: 60%;
+      float: left;
+      
+      
+  }
+
+  #central img{
+    width: 90%;
+    padding-left: 10%;
+    margin-top: 20px;
+  }
+
+  #categorias{
+      margin-top: 25px;
+      background-color: rgb(190, 189, 189);
+      height: 20px;
+      width: 90%;
+      margin-left: 5%;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: green;
+  }
+
+  #menu {
+    margin-top: 5px;
+    background-color: rgb(190, 189, 189);
+    width: 90%;
+    margin-left: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    overflow: hidden;
+    border-radius: 1%;
+  }
+
+  #menu img{
+      width: 60px;
+      float: right;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-top: 100px;
+      
+  }
+
+  ul{
+      list-style: none;
+      
+  }
+
+  li{
+    padding-top: 3px;
+    color: green;
+  }
+
+  span {
+      color: black;
+      font-weight: bold;
+  }
+/*calendario*/
+  #calendario{
+    height: 250px;
+    width: 20%;
+    background-color: rgb(190, 189, 189);
+    border-radius: 1%;
+    float: left;
+    margin-top: 15px;
+    
+  }
+
+  #calendario h4{
+    margin-top: 15px;
+    padding-left: 25px;
+    margin-bottom: 2px;
+  }
+
+  #calendario img{
+    height: 100px;
+    padding-left: 25px;
+    width: 200px;
+  }
+  /*Footer*/
+  #footer{
+    background-color: rgb(71, 71, 71);
+    /*height: 75px;*/
+    width: 100%;
+    float: left;   
+    margin-top: 30px;  
+    color: white;
+    text-align: center;
+  }
+
+  #footer p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
