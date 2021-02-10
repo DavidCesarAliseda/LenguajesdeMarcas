@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#container{
+    width: 90%;
+    margin: 10px auto;
+}
+/*Header*/
+header{
+    float: left;
+    width: 100%;
+    height: 75px;
+    
+}
+/*Parte Izquierda*/
+#head_izq{
+    float:left;
+    margin-top: 0px;
+    width: 50%;
+    
+}
+#head_izq div{
+    margin: 0px 0px;
+    float: left;
+}
+
+#head_izq h1{
+    margin: 0px 0px;
+    padding-right: 5px;
+    border-right: solid 2px; 
+    border-right-color: grey; 
+    
+}
+h1 span{
+    color: green;
+}
+#head_izq p{
+    margin: 0px 0px;
+    color: grey; 
+    margin-left: 3px;
+}
+
+/*Parte derecha*/
+
+#head_der{
+    float: right;
+    width: 50%;
+    height: 75px;
+    font-size: 15px;
+}
+
+#head_der ul{
+    list-style-type: none;
+    padding-left: 1%;
+    margin-top: 0px;
+}
+
+#head_der ul li{
+    float: right;
+    /*width: 30%;*/
+    margin: 35px auto;
+}
+
+#head_der ul li img{
+    float: left;
+    margin-top: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+#cont{
+    border-left: solid 1px;
+    margin-left: 4px;
+}
+
+#head_der ul li p{
+    float: left;
+    
+}
+
+/*Nav*/
+nav{
+    float: left;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(39, 39, 39);
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 1%;
+    margin-top: 0px;
+}
+
+nav p:hover{
+    color: black;
+    background-color: blanchedalmond;
+}
+
+nav ul li{
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+nav ul li p{
+    border-right: solid 1px;
+    padding-right: 9px;
+    margin-right: 9px;
+    margin-top: 8.5px;
+    margin-bottom: 8.5px;
+    
+}
+
+form{
+    float: right;
+    margin-right: 5px;
+    
+}
+
+input{
+    padding: 0px;
+}
+/*Main*/
+main{
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    position: relative;
+    
+}
+
+main div{
+    
+    z-index: 50;
+}
+
+#caption{
+    position: absolute;
+    left: 2%;
+    top: 78%;
+    background-color: rgb(116, 115, 115, 0.712);
+    width: 50%;
+    color: white;
+   
+    
+}
+
+#caption h2{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#caption p{
+    margin-left: 10px;
+}
+
+
+#flechi{
+    
+    position: absolute;
+    left: 90%;
+    top: 92%;
+    
+}
+
+#flechi p{
+    color: white;
+    background-color: gray;
+}
+
+#flechd{
+    
+    position: absolute;
+    left: 91%;
+    top: 92%;
+    
+}
+
+#flechd p{
+    color: white;
+    background-color: gray;
+}
+
+main > img{
+    width: 100%;
+    z-index: 1;
+}
+
+/*footer*/
+
+footer{
+    float: left;
+    width: 100%;
+    /*height: 300px;*/
+    
+}
+
+footer > div{
+    float: left;
+    width: 33%;
+    
+}
+
+.imagenes{
+    float: left;
+}
+
+.texto{
+    float: left;
+    width: 80%;
+    /*text-align: center;*/
+}
+
+.texto p{
+    margin-left: 10%;
+    width: 100%;
+}
+
+h2{
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
