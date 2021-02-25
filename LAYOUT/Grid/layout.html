@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LM_U4_T2:_CSS_Layou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo.png" alt="Logo de Aventura&Cia">
+            <div class="parrafo">
+                <p id="titulo">[Guia] 10 Lugares para um final de semana de Aventura!</p>
+                <p id="subtitulo">Conheça dicas de lugares para quem busca contato com a natureza.</p>
+            </div>
+        </header>
+         
+        <article class="colizq">
+            <img src="img/1140x465.jpg" alt="Ofertas de verano">
+            <p id="tit">Todas as regiöes do Brasil</p>
+            <p id="subtit">Selecionamos dois lugares para cada regiäo do Brasil para você aproveitar uma aventura de final de semana em contato com a natureza</p>
+        </article>
+
+        <article class="colder">
+            <div class="caja">
+                <p class="titulo">Faça o download grátis aqui!</p>
+                <p class="subtitulo">Basta preencher o formulario abaixo</p>
+                <div class="formulario">
+                    <p><br /></p>
+                    <p class="label">
+                        <label  for="nombre">Nome*</label>
+                    </p>
+                    <p class="input">
+                        <input type="text" name="nombre" required/>
+                    </p>
+                        <p  class="label">
+                        <label for="email">Email*</label>
+                    </p>
+                    <p class="input">
+                        <input type="text" name="email" required/>
+                    </p>                        <p  class="label">
+                        <label for="estado">Estado*</label>
+                    </p>
+                    <p class="input">                
+                        <select name="estado" required>
+                            <option value="" disabled selected="true" >Selecione</option>
+                            <option>Estado1</option>
+                            <option>Estado2</option>
+                            <option>Estado3</option>                                
+                        </select>
+                    </p>
+                    <p  class="label">
+                        <label for="tipo">Você practica que tipo de aventura?*</label>
+                    </p>
+                    <p >
+                        <input class="chbox" type="checkbox" name="Trekking" value="tipo" />Trekking<br />
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>  
+</body>
+</html>
