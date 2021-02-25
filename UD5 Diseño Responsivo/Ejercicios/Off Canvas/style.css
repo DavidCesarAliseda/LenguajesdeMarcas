@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+    /*Dispositivos pequeños, hasta 576*/
+#container {
+  height: 500px;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+}
+#uno {
+    background-color: red;
+    height: 300px;
+    position: absolute;
+    transform: translate(0, -300px);
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  
+  #dos {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+
+  }
+
+@media screen and (min-width: 576px) {
+    #uno {
+    transform: translate(0px);
+  }
+}

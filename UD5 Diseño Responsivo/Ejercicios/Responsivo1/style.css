@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+/*576 993*/
+/*Dispositivos pequeños, hasta 576*/
+#h{
+    text-align: center;
+    background-color: yellow;
+    height: 100px;
+    float: left;
+    width: 100%;
+}
+
+h1{
+    color: black;
+}
+
+#uno{
+    background-color: red;
+    height: 100px;
+    float: left;
+    width: 100%;
+}
+
+#dos{
+    background-color: green;
+    height: 100px;
+    float: left;
+    width: 100%;
+}
+
+#tres{
+    background-color: blue;
+    height: 100px;
+    float: left;
+    width: 100%;
+}
+
+/*Dispositivos pequeños, hasta 576*, apaisado*/
+@media screen and (orientation: landscape){
+    #h{
+        
+        background-color: orangered;
+        
+    }
+
+}
+
+/*Dispositivos medianos, desde 576*/
+@media screen and (min-width: 576px){
+    #h{
+        text-align: center;
+        background-color: yellow;
+        height: 100px;
+        float: left;
+        width: 100%;
+    }
+    
+    h1{
+        color: black;
+    }
+    
+    #uno{
+        background-color: red;
+        height: 100px;
+        float: left;
+        width: 50%;
+    }
+    
+    #dos{
+        background-color: green;
+        height: 100px;
+        float: left;
+        width: 30%;
+    }
+    
+    #tres{
+        background-color: blue;
+        height: 100px;
+        float: left;
+        width: 20%;
+    }
+}
+
+/*Dispositivos medianos, desde 993*/
+@media screen and (min-width: 993px){
+    #h{
+        text-align: center;
+        background-color: rgb(0, 255, 115);
+        height: 100px;
+        float: left;
+        width: 100%;
+    }
+    
+    h1{
+        color: rgb(43, 39, 39);
+    }
+    
+    #uno{
+        background-color: red;
+        height: 100px;
+        float: left;
+        width: 33%;
+    }
+    
+    #dos{
+        background-color: green;
+        height: 100px;
+        float: left;
+        width: 34%;
+    }
+    
+    #tres{
+        background-color: blue;
+        height: 100px;
+        float: left;
+        width: 33%;
+    }
+}

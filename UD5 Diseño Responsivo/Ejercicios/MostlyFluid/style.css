@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+    /*Dispositivos pequeños, hasta 576*/
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#uno{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+}
+#dos{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+#tres{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+#cuatro{
+    background-color: orangered;
+    height: 100px;
+    width: 100%;
+}
+#cinco{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+}
+/*Dispositivos medianos, desde 576*/
+@media screen and (min-width: 576px){
+    #dos,
+    #tres{
+        width: 50%;
+    }
+}
+    /*Dispositivos medianos, desde 993*/
+@media screen and (min-width: 993px){
+    #dos,
+    #tres,
+    #cuatro{
+        width: 33.3%;
+    }
+}

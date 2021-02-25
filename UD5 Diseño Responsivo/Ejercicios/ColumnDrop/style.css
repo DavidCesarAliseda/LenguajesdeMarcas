@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  /*Dispositivos pequeños, hasta 576*/
+
+#uno{
+    background-color: red;
+    height: 150px;
+    float: left;
+    width: 100%;
+}
+
+#dos{
+    background-color: green;
+    height: 150px;
+    float: left;
+    width: 100%;
+}
+
+#tres{
+    background-color: blue;
+    height: 150px;
+    float: left;
+    width: 100%;
+}
+
+/*Dispositivos medianos, desde 576*/
+@media screen and (min-width: 576px){
+    #uno{
+        background-color: red;
+        height: 100px;
+        float: left;
+        width: 50%;
+    }
+    
+    #dos{
+        background-color: green;
+        height: 100px;
+        float: left;
+        width: 50%;
+    }
+    
+    #tres{
+        background-color: blue;
+        height: 100px;
+        float: left;
+        width: 100%;
+    }
+}
+
+/*Dispositivos medianos, desde 993*/
+@media screen and (min-width: 993px){
+    #uno{
+        background-color: red;
+        float: left;
+        width: 33%;
+    }
+    
+    #dos{
+        background-color: green;
+        float: left;
+        width: 34%;
+    }
+    
+    #tres{
+        background-color: blue;
+        float: left;
+        width: 33%;
+    }
+}
