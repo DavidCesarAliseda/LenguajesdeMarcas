@@ -10,7 +10,7 @@
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 55px 200px 100px 250px 40px;
+    grid-template-rows: 55px 200px 100px 400px 40px;
 }
 header,
 #tarifa,
@@ -35,4 +35,18 @@ header{
 }
 #redes{
     background-color: orchid;
+}
+
+/*Mayor a 576 y menor a 992*/
+@media screen and (min-width: 576px){
+    #container{
+        grid-template-rows: 55px 200px 400px 40px;
+    }
+
+    header,
+    #tarifa,
+    #formulario,
+    #redes{
+    grid-column: 1/3;
+    }
 }
